@@ -10,5 +10,7 @@ for n = 1:50
 end
 
 for n = 1:6
-	  kerrat(n)=kerrat(n)/n
+	  kerrat(n)=kerrat(n)/n;
 end
+figure(1); pie(kerrat); labels = {'1', '2', '3', '4', '5', '6'} 
+legend(labels);
